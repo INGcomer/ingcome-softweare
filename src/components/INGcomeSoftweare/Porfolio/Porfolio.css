@@ -1,0 +1,88 @@
+#porfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+    padding-top: 20px;
+
+    /* overflow-x: hidden; */
+
+    height: 100vh;
+}
+
+#porfolio h1 {
+    width: 100%;
+    text-align: center;
+}
+
+#porfolio .cards_container {
+    height: 70%;
+    width: 50%;
+    margin-left: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    z-index: 20;
+}
+
+#porfolio .project_card {
+    height: 30%;
+    width: 100%;
+
+    padding-left: 50px;
+    padding-right: 50px;
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    z-index: 10;
+
+    overflow: hidden;
+}
+#porfolio .project_card h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+#porfolio .project_card a {
+    height: 80%;
+    width: auto;
+    border-radius: 16px;
+    overflow: hidden;
+}
+#porfolio .project_card a img {
+    height: 100%;
+    width: auto;
+}
+
+
+
+#porfolio .fondo_projectos {
+    height: 1500px;
+
+    position: relative;
+    top: -160%;
+    left: 45%;
+    transform: scaleX(-1);
+    transform: rotate(15deg);
+}
+#porfolio .mockups {
+    /* height: 1500px; */
+
+    position: relative;
+    top: -60%;
+    left: 70%;
+
+    z-index: 10;
+}

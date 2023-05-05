@@ -1,0 +1,129 @@
+:root {
+    --Naranja: #D45E2C;
+    --GrisClaro: #EFEFEF;
+    --GrisMedio: #EFEFEF;
+    --GrisOscuro: #191D20;
+
+    scroll-behavior: smooth;
+}
+
+html {
+    width: 100vw;
+
+    /* overflow: hidden; */
+    overflow-x: hidden;
+
+    background-color: var(--GrisClaro);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+
+    width: 100vw;
+}
+
+a {
+    color: var(--GrisOscuro);
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+.INGsoft {
+    background-color: #EFEFEF;
+}
+
+.contacto {
+    height: 42px;
+    width: 200px;
+
+    border-radius: 25px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+
+    background-color: var(--Naranja);
+    color: var(--GrisClaro);
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.INGsoft h1 {
+    color: var(--GrisOscuro);
+    font-weight: bold;
+}
+
+
+.prueba {
+    height: 450px;
+    width: 300px;
+
+    margin-left: 100px;
+    margin-bottom: 100px;
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    overflow: hidden;
+}
+.title{
+    height: 70px;
+    width: 100%;
+
+    background-color: var(--Naranja);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title h1{
+    margin: 0;
+
+    font-size: 3rem;
+    color: var(--GrisClaro);
+}
+p{
+    margin: 0;
+    padding: 30px;
+}
+
+
+.prueba2 {
+    height: 450px;
+    width: 300px;
+
+    margin-left: 100px;
+    margin-bottom: 100px;
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    overflow: hidden;
+
+    display: flex;
+}
+
+.prueba2 .title{
+    height: 100%;
+    width: 70px;
+}
+
+.prueba2 .title h1{
+    transform: rotate(-90deg);
+}
