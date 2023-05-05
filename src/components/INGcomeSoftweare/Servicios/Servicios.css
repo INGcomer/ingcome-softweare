@@ -1,70 +1,85 @@
-#servicios {
-    height: 100vh;
-
-    margin-top: 20px;
-    padding-top: 60px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#servicios .servicios_container {
-    width: 100%;
-    padding-left: 150px;
-    /* padding-right: 100px; */
-}
-
-#servicios .servicios_card {
-    width: 23%;
-    height: 100px;
-    
+#servicios{
     margin-top: 50px;
+    padding-top: 50px;
 
-    display: flex;
-    justify-content: space-between;
+    height: 100vh;
 }
 
-#servicios .servicios_card .icon{
-    width: 100px;
-    height: 100px;
+#servicios h1{
+    text-align: center;
+}
 
-    border-radius: 25px;
+.servicios_card_container{
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.servicios_icon_container{
+    display: flex;
+    justify-content: space-evenly;
+
+    position: relative;
+    top: -400px;
+}
+.servicios_icon_container svg{
+    height: 300px;
+    width: 300px;
+
+    color: var(--GrisMedio);
+}
+
+
+.servicios_card {
+    height: 450px;
+    width: 310px;
+
+    /* margin-left: 100px; */
+    /* margin-bottom: 100px; */
+
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+
+    overflow: hidden;
+    z-index: 100;
+    display: flex;
+}
+
+.servicios_card .title{
+    height: 100%;
+    width: 70px;
+
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
-#servicios .servicios_card .text h2{
-    margin-top: 0px;
+.servicios_card .title.desarollo{
+    background-color: var(--Naranja);
+}
+.servicios_card .title.diseño{
+    background-color: var(--Morado);
+}
+.servicios_card .title.soporte{
+    background-color: var(--Celeste);
 }
 
+.servicios_card .title h1{
+    margin: 0;
 
-#servicios .diseño .icon{
-    background-color: #6524c6;
-}
-#servicios .desarollo{
-    margin-left: 35%;
-}
-#servicios .desarollo .icon{
-    background-color: #D45E2C;
-}
-#servicios .soporte{
-    margin-left: 65%;
-}
-#servicios .soporte .icon{
-    background-color: #096dd9;
-}
-
-#servicios .icon svg{
-    height: 70%;
-    width: auto;
+    font-size: 3rem;
     color: var(--GrisClaro);
+    transform: rotate(-90deg);
 }
 
-#servicios img{
-    position: relative;
-    left: -35%;
-    height: 300px;
+.servicios_card p{
+    margin: 0;
+    padding: 30px;
+    
+    font-weight: bold;
 }

@@ -1,8 +1,13 @@
 :root {
+    /* generales */
     --Naranja: #D45E2C;
     --GrisClaro: #EFEFEF;
-    --GrisMedio: #EFEFEF;
+    --GrisMedio: #CECECE;
     --GrisOscuro: #191D20;
+
+    /* servicios */
+    --Morado: #6524c6;
+    --Celeste: #096dd9;
 
     scroll-behavior: smooth;
 }
@@ -33,7 +38,7 @@ h1 {
 }
 
 .INGsoft {
-    background-color: #EFEFEF;
+    background-color: var(--GrisClaro);
 }
 
 .contacto {
@@ -60,70 +65,5 @@ h1 {
 }
 
 
-.prueba {
-    height: 450px;
-    width: 300px;
-
-    margin-left: 100px;
-    margin-bottom: 100px;
-
-    /* From https://css.glass */
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 20px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-
-    overflow: hidden;
-}
-.title{
-    height: 70px;
-    width: 100%;
-
-    background-color: var(--Naranja);
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.title h1{
-    margin: 0;
-
-    font-size: 3rem;
-    color: var(--GrisClaro);
-}
-p{
-    margin: 0;
-    padding: 30px;
-}
 
 
-.prueba2 {
-    height: 450px;
-    width: 300px;
-
-    margin-left: 100px;
-    margin-bottom: 100px;
-
-    /* From https://css.glass */
-    background: rgba(255, 255, 255, 0.2);
-    border-radius: 20px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid rgba(255, 255, 255, 0.3);
-
-    overflow: hidden;
-
-    display: flex;
-}
-
-.prueba2 .title{
-    height: 100%;
-    width: 70px;
-}
-
-.prueba2 .title h1{
-    transform: rotate(-90deg);
-}
