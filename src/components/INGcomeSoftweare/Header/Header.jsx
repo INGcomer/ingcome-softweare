@@ -20,8 +20,18 @@ export default function Header() {
 
                 <div className='glass_card'>
                     <img src={logo_grande} alt="income logo" />
-                    <p> awesome words </p>
-                    <a href="" className='contacto'> CONTACTANOS </a>
+                    <p> Hacemos realidad tus ideas </p>
+                    {/* <motion.div
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.9 }}
+                    /> */}
+                    <motion.a 
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.9 }}
+                        href="#contacto" 
+                        className='contacto'> CONTACTANOS </motion.a>
+
+                    {/* <motion.div /> */}
                 </div>
 
             </motion.div>

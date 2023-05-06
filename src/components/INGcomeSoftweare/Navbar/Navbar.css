@@ -41,6 +41,11 @@
     font-size: 1.2rem;
 
     margin-left: 30px;
+
+    font-weight: bold;
+}
+.INGsoft .navbar a.icono{
+    height: 100%;
 }
 
 .INGsoft .navbar .navegation{
