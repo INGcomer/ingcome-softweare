@@ -92,3 +92,16 @@
     -webkit-backdrop-filter: blur(5px);
     border: 1px solid rgba(212, 94, 44, 0.3);
 }
+
+@media (max-width: 750px) {
+    #contacto{
+        height: inherit;
+    }
+    #contacto .contact_card {
+        flex-wrap: wrap;
+    }
+
+    #contacto .contact_card div{
+        margin: 50px;
+    }
+}

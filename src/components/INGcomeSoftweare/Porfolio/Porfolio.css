@@ -86,3 +86,40 @@
 
     z-index: 10;
 }
+
+@media (max-width: 1400px) {
+    #porfolio .fondo_projectos {
+        height: 1000px;
+    
+        top: -179%;
+        left: 45%;
+    }
+    #porfolio .mockups {
+        height: 400px;
+    
+        position: relative;
+        top: -75%;
+        left: 65%;
+    
+        z-index: 10;
+    }
+
+    #porfolio {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 750px) {
+    #porfolio {
+        padding-top: 60px;
+    }
+    .mockups{
+        display: none;
+    }
+    .fondo_projectos{
+        display: none;
+    }
+    #porfolio .cards_container {
+        width: inherit;
+    }
+}

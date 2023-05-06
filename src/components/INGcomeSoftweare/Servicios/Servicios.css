@@ -83,3 +83,18 @@
     
     font-weight: bold;
 }
+
+
+@media (max-width: 1400px) {
+    .servicios_card_container{
+        margin-top: 40px;
+    }
+
+    .servicios_card {
+        height: 400px;
+    }
+
+    .servicios_icon_container{
+        top: -350px;
+    }
+}
