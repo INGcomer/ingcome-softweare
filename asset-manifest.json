@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.58e1f481.css",
+    "main.js": "/static/js/main.028bfa80.js",
+    "static/js/787.ae2166b6.chunk.js": "/static/js/787.ae2166b6.chunk.js",
+    "static/media/WISSE.png": "/static/media/WISSE.10e3c9913e3c18f019cf.png",
+    "static/media/CAEII.png": "/static/media/CAEII.c4acbbbccebd9f191533.png",
+    "static/media/SISA.png": "/static/media/SISA.9ecce42d2d6311b40841.png",
+    "static/media/nav mas income.png": "/static/media/nav mas income.893c0d486a06d25fb0e1.png",
+    "static/media/people.svg": "/static/media/people.1cf7b3324aac51a94407445221e256da.svg",
+    "static/media/logo.svg": "/static/media/logo.1411e174b4fe8c497fd5e7ed7c3bad39.svg",
+    "static/media/blob.svg": "/static/media/blob.c0e94c8d9f366dcfec345440798cb368.svg",
+    "index.html": "/index.html",
+    "static/media/I de income gris.svg": "/static/media/I de income gris.e26fb4faf7ad96d47593341ac1048ba3.svg",
+    "static/media/I de income.svg": "/static/media/I de income.c93b8ad49c716b761ecb555293512081.svg",
+    "main.58e1f481.css.map": "/static/css/main.58e1f481.css.map",
+    "main.028bfa80.js.map": "/static/js/main.028bfa80.js.map",
+    "787.ae2166b6.chunk.js.map": "/static/js/787.ae2166b6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58e1f481.css",
+    "static/js/main.028bfa80.js"
+  ]
+}
