@@ -15,18 +15,17 @@ export default function Porfolio() {
         <section id="porfolio">
             <h1> Algunos de nuestros projectos </h1>
 
-            
             <div className="cards_container">
                 <div className="project_card">
                     <div className="text">
                         <h2> SISA </h2>
                         <p> esto es SISA </p>
                     </div>
-                    
+
                     <a href="https://sisa-frontend.vercel.app/">
                         <img src={SISA} alt="" />
                     </a>
-                    
+
                 </div>
 
                 <div className="project_card">
@@ -34,18 +33,18 @@ export default function Porfolio() {
                         <h2> CAEII </h2>
                         <p> esto es CAEII </p>
                     </div>
-                    
+
                     <a href="https://caeii-2022.vercel.app/">
                         <img src={CAEII} alt="" />
                     </a>
-                    
+
                 </div>
                 <div className="project_card">
                     <div className="text">
                         <h2> WISSE </h2>
                         <p> esto es WISSE </p>
                     </div>
-                    
+
                     <a href="https://nasa-space-apps-2022.github.io/W.I.S.S.E/">
                         <img src={WISSE} alt="" />
                     </a>
@@ -53,11 +52,8 @@ export default function Porfolio() {
 
 
             </div>
-
-            
-
-                <img src={mockups} alt="" className="mockups"/>
-                <img src={shape} alt="" className="fondo_projectos"/>
+            <img src={mockups} alt="" className="mockups" />
+            <img src={shape} alt="" className="fondo_projectos" />
         </section>
     )
 }

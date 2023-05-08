@@ -6,7 +6,6 @@ import I_income from './I de income.svg'
 export default function Navbar() {
     return (
         <nav className="navbar">
-           {/* <div> */}
            <a href="#header" className='icono'>
            <div className="logo">
                 <img src={I_income} alt="INGcome logo" />
@@ -18,7 +17,6 @@ export default function Navbar() {
                 <a href="#porfolio" className='navegation'> Porfolio </a>
                 <a href="#contacto" className='contacto'> CONTACTANOS </a>
             </div>
-           {/* </div> */}
         </nav>
     )
 }

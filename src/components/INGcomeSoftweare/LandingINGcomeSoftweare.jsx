@@ -10,9 +10,6 @@ import './landingSoft.css';
 
 
 export default function LandingINGcomeSoftweare() {
-
-    // console.log(Screen.width)
-
     return (
         <div className="INGsoft">
             <Navbar />

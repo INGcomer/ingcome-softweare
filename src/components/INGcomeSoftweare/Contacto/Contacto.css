@@ -2,14 +2,14 @@
     height: 600px;
     overflow: hidden;
 }
+
 #contacto h1 {
-    /* height: 200px; */
     width: 100%;
 
     text-align: center;
 }
+
 #contacto .contact_card {
-    /* height: 200px; */
     width: 100%;
 
     margin-top: 100px;
@@ -24,7 +24,6 @@
     height: 200px;
     width: 200px;
 
-    /* From https://css.glass */
     background: rgba(255, 255, 255, 0.2);
     border-radius: 20px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -54,7 +53,6 @@
 }
 
 #contacto .email:hover {
-    /* From https://css.glass */
     background: rgba(204, 60, 49, 0.23);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -64,7 +62,6 @@
 }
 
 #contacto .linkedin:hover {
-    /* From https://css.glass */
     background: rgba(11, 103, 194, 0.21);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -74,7 +71,6 @@
 }
 
 #contacto .instagram:hover {
-    /* From https://css.glass */
     background: rgba(181, 46, 118, 0.27);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -84,7 +80,6 @@
 }
 
 #contacto .telefono:hover {
-    /* From https://css.glass */
     background: rgba(212, 94, 44, 0.23);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -100,12 +95,10 @@
     #contacto .contact_card {
         flex-wrap: wrap;
     }
-
     #contacto .contact_card div{
         margin: 50px;
     }
 }
-
 
 @media (max-width: 500px) {
     #contacto .contact_card div {
@@ -113,7 +106,6 @@
         width: 150px;
 
         margin: 0;
-
         margin-bottom: 40px;
     }
 

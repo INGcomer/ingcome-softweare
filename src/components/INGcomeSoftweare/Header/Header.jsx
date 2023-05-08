@@ -5,7 +5,6 @@ import './Header.css';
 
 // IMGs
 import logo_grande from './imgs/logo.svg'
-// import I_income from './imgs/I de income.svg
 import I_income from './imgs/I de income gris.svg'
 
 export default function Header() {
@@ -21,17 +20,12 @@ export default function Header() {
                 <div className='glass_card'>
                     <img src={logo_grande} alt="income logo" />
                     <p> Hacemos realidad tus ideas </p>
-                    {/* <motion.div
-                        whileHover={{ scale: 1.1 }}
-                        whileTap={{ scale: 0.9 }}
-                    /> */}
                     <motion.a 
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.9 }}
                         href="#contacto" 
-                        className='contacto'> CONTACTANOS </motion.a>
-
-                    {/* <motion.div /> */}
+                        className='contacto'> CONTACTANOS
+                    </motion.a>
                 </div>
 
             </motion.div>
