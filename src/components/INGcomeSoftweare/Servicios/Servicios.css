@@ -98,3 +98,58 @@
         top: -350px;
     }
 }
+
+
+@media (max-width: 500px) {
+    #servicios {
+        height: fit-content;
+        /* height: 140vh; */
+    }
+
+    .servicios_icon_container{
+        display: none;
+    }
+
+    /* .servicios_icon_container{
+        top: -1120px;
+
+        width: 100%;
+
+        flex-direction: column;
+        align-items: center;
+    } */
+
+    /* .servicios_icon_container svg{
+        margin-bottom: 90px;
+    } */
+
+    .servicios_card_container {
+        flex-direction: column;
+        align-items: center;
+
+        width: 100%;
+    }  
+
+    .servicios_card {
+        height: fit-content;
+        width: 80%;
+
+        margin-bottom: 50px;
+
+        flex-direction: column;
+    }
+
+    .servicios_card .title{
+        height: 70px;
+        width: 100%;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .servicios_card .title h1{
+        font-size: 2rem;
+        transform: rotate(0deg);
+    }
+}

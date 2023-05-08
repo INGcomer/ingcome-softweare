@@ -123,3 +123,33 @@
         width: inherit;
     }
 }
+
+@media (max-width: 500px) {
+    #porfolio {
+        height: fit-content;
+    }
+    #porfolio .cards_container {
+        width: 100%;
+
+        margin: 0;
+
+        align-items: center;
+    }
+
+    #porfolio .project_card {
+        flex-direction: column;
+
+        width: 60%;
+        height: fit-content;
+
+        padding-top: 10px;
+        padding-bottom: 10px;
+
+        margin-bottom: 50px;
+    }
+
+    #porfolio .project_card a img {
+        height: auto;
+        width: 100%;
+    }
+}

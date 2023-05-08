@@ -1,4 +1,4 @@
-.INGsoft .navbar{
+.INGsoft .navbar {
     position: fixed;
     top: 0;
     /* width: 96vw; */
@@ -13,13 +13,13 @@
 
     /* background-color: #EFEFEF; */
 
-     /* From https://css.glass */
-     background: rgba(255, 255, 255, 0.2);
-     border-radius: 16px;
-     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-     backdrop-filter: blur(5px);
-     -webkit-backdrop-filter: blur(5px);
-     border: 1px solid rgba(255, 255, 255, 0.3);
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 
     display: flex;
     align-items: center;
@@ -28,7 +28,7 @@
     z-index: 1000;
 }
 
-.INGsoft .navbar .links{
+.INGsoft .navbar .links {
     height: 100%;
 
     display: flex;
@@ -37,29 +37,30 @@
     padding-right: 100px;
 }
 
-.INGsoft .navbar a{
+.INGsoft .navbar a {
     font-size: 1.2rem;
 
     margin-left: 30px;
 
     font-weight: bold;
 }
-.INGsoft .navbar a.icono{
+
+.INGsoft .navbar a.icono {
     height: 100%;
 }
 
-.INGsoft .navbar .navegation{
+.INGsoft .navbar .navegation {
     display: none;
 }
 
-.INGsoft .navbar .logo{
+.INGsoft .navbar .logo {
     height: 100%;
 
     display: flex;
     align-items: center;
 }
 
-.INGsoft .navbar .logo img{
+.INGsoft .navbar .logo img {
     height: 80%;
     width: auto;
 }
@@ -67,11 +68,23 @@
 
 
 @media (min-width: 30em) and (orientation: landscape) {
-    .INGsoft .navbar .navegation{
+    .INGsoft .navbar .navegation {
         display: block;
     }
 }
 
+@media (max-width: 500px) {
+    @media (max-width: 500px) {
+        #header .izquierda .glass_card img {
+            height: 30%;
+        }
 
+        #header .izquierda .glass_card p {
+            width: 70vw;
+        }
+    }
 
-    
+    .INGsoft .navbar {
+        width: inherit;
+    }
+}

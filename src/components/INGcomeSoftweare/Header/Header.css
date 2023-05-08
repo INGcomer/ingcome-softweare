@@ -58,3 +58,12 @@
         z-index: 1;
     }
 }
+
+@media (max-width: 500px) {
+    #header .izquierda .glass_card img {
+        height: 30%;
+    }
+    #header .izquierda .glass_card p {
+        width: 70vw;
+    }
+}

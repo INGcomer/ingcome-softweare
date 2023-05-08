@@ -105,3 +105,20 @@
         margin: 50px;
     }
 }
+
+
+@media (max-width: 500px) {
+    #contacto .contact_card div {
+        height: 150px;
+        width: 150px;
+
+        margin: 0;
+
+        margin-bottom: 40px;
+    }
+
+    #contacto .contact_card {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+}

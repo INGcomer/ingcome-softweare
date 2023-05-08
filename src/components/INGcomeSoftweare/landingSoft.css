@@ -73,5 +73,12 @@ h1 {
 }
 
 
+@media (max-width: 500px) {
+    body {
+        overflow: hidden;
+    }
+}
+
+
 
 

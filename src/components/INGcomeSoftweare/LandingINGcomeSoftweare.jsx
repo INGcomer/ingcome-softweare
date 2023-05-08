@@ -11,7 +11,7 @@ import './landingSoft.css';
 
 export default function LandingINGcomeSoftweare() {
 
-    console.log(screen.width)
+    // console.log(Screen.width)
 
     return (
         <div className="INGsoft">

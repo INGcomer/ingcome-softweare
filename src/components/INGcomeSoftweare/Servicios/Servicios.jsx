@@ -7,19 +7,13 @@ import Pencil from '@mui/icons-material/DrawOutlined';
 import Gear from '@mui/icons-material/EngineeringOutlined';
 import Tools from '@mui/icons-material/HandymanOutlined';
 // IMGs
-import people from "./IMGs/people.svg"
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export default function Servicios() {
-    const [posicion_inicial_animaciones, set_posicion_inicial_animaciones] = useState(100);
 
-    useEffect(() => {
-        if (screen.width < 1020) {
-            set_posicion_inicial_animaciones(0)
-    
-            console.log("kk")
-        }
-    }, []);
+    const [posicion_inicial_animaciones, set_posicion_inicial_animaciones] = useState("300px");
+
+    console.log('kk')
 
     
     return (
@@ -29,7 +23,7 @@ export default function Servicios() {
 
                 <motion.div
                     className="servicios_card"
-                    initial={{ x:  `${posicion_inicial_animaciones + 200}%`}}
+                    initial={{ x:  posicion_inicial_animaciones}}
                     whileInView={{ x: '0%' }}
                     transition={{ duration: 0.5 }}
                 >
@@ -47,8 +41,7 @@ export default function Servicios() {
 
                 <motion.div
                     className="servicios_card"
-                    // initial={{ x: '200%' }}
-                    initial={{ x:  `${posicion_inicial_animaciones + 100}%`}}
+                    initial={{ x:  posicion_inicial_animaciones}}
                     whileInView={{ x: '0%' }}
                     transition={{ duration: 0.5 }}
                 >
@@ -69,8 +62,7 @@ export default function Servicios() {
 
                 <motion.div
                     className="servicios_card"
-                    // initial={{ x: '100%' }}
-                    initial={{ x:  `${posicion_inicial_animaciones}%`}}
+                    initial={{ x:  posicion_inicial_animaciones}}
                     whileInView={{ x: '0%' }}
                     transition={{ duration: 0.5 }}
                 >
