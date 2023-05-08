@@ -20,13 +20,10 @@ export default function Contacto() {
                     whileInView={{ y: '0%' }}
                     transition={{ duration: 0.5 }}
                 >
-                    {/* <div className='email'> */}
-                    <a href="">
+                    <a href="mailto:contacto@ingcomer.com">
                         <AlternateEmailIcon />
                     </a>
                     email
-                    {/* </div> */}
-
                 </motion.div>
                 <motion.div
                     className='linkedin'
@@ -34,12 +31,10 @@ export default function Contacto() {
                     whileInView={{ y: '0%' }}
                     transition={{ duration: 0.5 }}
                 >
-                    {/* <div className='linkedin'> */}
-                    <a href="">
+                    <a href="https://www.linkedin.com/company/ingcomer/">
                         <LinkedInIcon />
                     </a>
                     linkedin
-                    {/* </div> */}
                 </motion.div>
                 <motion.div
                     className='instagram'
@@ -47,12 +42,10 @@ export default function Contacto() {
                     whileInView={{ y: '0%' }}
                     transition={{ duration: 0.5 }}
                 >
-                    {/* <div className='instagram'> */}
-                    <a href="">
+                    <a href="https://www.instagram.com/c.ingcomer/">
                         <InstagramIcon />
                     </a>
                     instagram
-                    {/* </div> */}
                 </motion.div>
                 <motion.div
                     className='telefono'
@@ -60,14 +53,10 @@ export default function Contacto() {
                     whileInView={{ y: '0%' }}
                     transition={{ duration: 0.5 }}
                 >
-                    {/* <div className='telefono'> */}
-
-                    <a href="">
+                    <a href="https://wa.me/542615163613">
                         <LocalPhoneIcon />
                     </a>
                     2615163613
-                    
-                    {/* </div> */}
                 </motion.div>
             </div>
         </section>
