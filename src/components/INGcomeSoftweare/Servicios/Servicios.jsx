@@ -27,9 +27,9 @@ export default function Servicios() {
                         <h1> Diseño </h1>
                     </div>
 
-                    <p>
+                    {/* <p>
                         Durante la fase de descubrimiento y diseño, nuestro objetivo es ayudar a nuestros clientes a identificar oportunidades de mejora en sus procesos o a conceptualizar y diseñar un producto. Nos enfocamos en tres aspectos fundamentales: funcionalidad, usabilidad y tecnología para garantizar que el resultado final sea un producto innovador y de alta calidad.
-                    </p>
+                    </p> */}
                 </motion.div>
 
                 <motion.div
@@ -42,9 +42,9 @@ export default function Servicios() {
                         <h1> Desarollo </h1>
                     </div>
 
-                    <p>
+                    {/* <p>
                         Durante la fase de descubrimiento y diseño, nuestro objetivo es ayudar a nuestros clientes a identificar oportunidades de mejora en sus procesos o a conceptualizar y diseñar un producto. Nos enfocamos en tres aspectos fundamentales: funcionalidad, usabilidad y tecnología para garantizar que el resultado final sea un producto innovador y de alta calidad.
-                    </p>
+                    </p> */}
                 </motion.div>
 
                 <motion.div
@@ -57,9 +57,9 @@ export default function Servicios() {
                         <h1> Soporte </h1>
                     </div>
 
-                    <p>
+                    {/* <p>
                         Durante la fase de descubrimiento y diseño, nuestro objetivo es ayudar a nuestros clientes a identificar oportunidades de mejora en sus procesos o a conceptualizar y diseñar un producto. Nos enfocamos en tres aspectos fundamentales: funcionalidad, usabilidad y tecnología para garantizar que el resultado final sea un producto innovador y de alta calidad.
-                    </p>
+                    </p> */}
                 </motion.div>
             </div>
 
