@@ -27,9 +27,9 @@ export default function Servicios() {
                         <h1> Diseño </h1>
                     </div>
 
-                    {/* <p>
-                        Durante la fase de descubrimiento y diseño, nuestro objetivo es ayudar a nuestros clientes a identificar oportunidades de mejora en sus procesos o a conceptualizar y diseñar un producto. Nos enfocamos en tres aspectos fundamentales: funcionalidad, usabilidad y tecnología para garantizar que el resultado final sea un producto innovador y de alta calidad.
-                    </p> */}
+                 <p>
+                        Durante la fase de descubrimiento y diseño, nuestro objetivo es ayudar a nuestros clientes a identificar oportunidades de mejora en sus procesos o diseñar un producto. Nos enfocamos en tres aspectos fundamentales: funcionalidad, usabilidad y escalabilidad para garantizar que el resultado final de alta calidad.
+                    </p>
                 </motion.div>
 
                 <motion.div
@@ -42,9 +42,9 @@ export default function Servicios() {
                         <h1> Desarollo </h1>
                     </div>
 
-                    {/* <p>
-                        Durante la fase de descubrimiento y diseño, nuestro objetivo es ayudar a nuestros clientes a identificar oportunidades de mejora en sus procesos o a conceptualizar y diseñar un producto. Nos enfocamos en tres aspectos fundamentales: funcionalidad, usabilidad y tecnología para garantizar que el resultado final sea un producto innovador y de alta calidad.
-                    </p> */}
+                    <p>
+                    Nuestro equipo de desarrolladores altamente capacitados utiliza las últimas herramientas y tecnologías para diseñar y crear soluciones de software a medida. Ya sea que necesite una aplicación web, un sistema de gestión de bases de datos o una aplicación móvil, nos comprometemos a ofrecer soluciones de alta calidad y funcionales.
+                    </p>
                 </motion.div>
 
                 <motion.div
@@ -57,9 +57,9 @@ export default function Servicios() {
                         <h1> Soporte </h1>
                     </div>
 
-                    {/* <p>
-                        Durante la fase de descubrimiento y diseño, nuestro objetivo es ayudar a nuestros clientes a identificar oportunidades de mejora en sus procesos o a conceptualizar y diseñar un producto. Nos enfocamos en tres aspectos fundamentales: funcionalidad, usabilidad y tecnología para garantizar que el resultado final sea un producto innovador y de alta calidad.
-                    </p> */}
+                    <p>
+                    Nuestra solución de software implementada viene respaldada por un servicio de soporte especializado en mantenimiento y evolución. Nuestro dedicado equipo de profesionales está disponible para brindar asistencia, resolver cualquier incidente y garantizar el continuo crecimiento de la solución.
+                    </p>
                 </motion.div>
             </div>
 
