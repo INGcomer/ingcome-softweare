@@ -1,0 +1,119 @@
+#footer {
+    margin-top: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: var(--Claro);
+
+    overflow: hidden;
+}
+
+#footer .menu_container{
+    height: 100px;
+    width: 100%;
+
+    color: #191d20;
+
+    display: flex;
+    justify-content: space-around;
+}
+#footer .menu_container .callToAccion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer .menu_container .callToAccion button{
+   width: 200px;
+   border-radius: 50px;
+
+   background-color: rgb(49, 49, 49);
+}
+
+#footer .menu_container .redes{
+    width: 15%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+#footer .menu_container .redes a{
+   height: 50px;
+   width: 50px;
+   border-radius: 50px;
+
+   background-color: rgb(49, 49, 49);
+   color: white;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+#footer .menu_container .texto{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer .menu_container .texto div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 10px;
+}
+
+#footer .menu_container .texto div span{
+   margin-left: 5px;
+}
+
+#footer .linea{
+    height: 3px;
+    width: 90%;
+
+    background-color: rgb(49, 49, 49);
+}
+
+#footer .ingcome_sofweare{
+    /* height: 50px; */
+    width: 10%;
+
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    /* background-color: white; */
+}
+
+#footer .ingcome_sofweare svg .cls-1, #footer .ingcome_sofweare svg .cls-2{
+    transition: fill 1s;
+}
+#footer .ingcome_sofweare svg{
+    fill: rgb(49, 49, 49);
+}
+#footer .ingcome_sofweare svg:hover .cls-1{
+    fill:#191d20;
+}
+#footer .ingcome_sofweare svg:hover .cls-2{
+    fill:#d45e2c;
+}
+
+
+@media (max-width: 500px) {
+    #footer .menu_container .texto{
+        display: none;
+    }
+
+    #footer .menu_container .redes {
+        width: 30%;
+    }
+
+    #footer .ingcome_sofweare {
+        width: 20%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
