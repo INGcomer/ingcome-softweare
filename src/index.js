@@ -4,11 +4,12 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 
 // import LandingINGcomeSoftweare from "components/INGcomeSoftweare/LandingINGcomeSoftweare";
 
 import Landing from "./components/INGcomeSoftweare/LandingINGcomeSoftweare"
+import ErrorPage from './components/Error-page/Error-page';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,7 +20,10 @@ root.render(
         path="/"
         element={ <Landing/> }
       />
-      {/* <Redirect to="/" /> */}
+      <Route
+        path="*"
+        element={ <ErrorPage/> }
+      />
     </Routes>
     </BrowserRouter> 
   </React.StrictMode>
