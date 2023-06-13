@@ -21,6 +21,10 @@ root.render(
         element={ <Landing/> }
       />
       <Route
+        path="/software"
+        element={ <Landing/> }
+      />
+      <Route
         path="*"
         element={ <ErrorPage/> }
       />
