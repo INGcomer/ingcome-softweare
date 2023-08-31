@@ -1,0 +1,70 @@
+#contacto{
+    width: 80%;
+
+    margin-top: 100px;
+
+    color: var(--GrisClaro);
+}
+#contacto .title {
+    margin-top: 100px;
+    margin-left: -100px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+
+#contacto .title img {
+    height: 50px;
+}
+
+#contacto .title h2 {
+    font-size: 4rem;
+}
+
+#contacto form {
+    width: 100%;
+
+    margin-top: 50px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#contacto form button{
+    height: 60px;
+
+    border-radius: 10px;
+
+    background-color: var(--Rojo);
+    border: none;
+
+    color: var(--GrisClaro);
+    font-size: 2rem;
+
+    cursor: pointer;
+
+    transition: all 0.5s;
+}
+#contacto form button:hover{
+    background-color: var(--GrisClaro);
+    color: var(--Rojo);
+}
+
+
+@media (max-width: 500px) {
+    #contacto .title {
+        margin-left: 0px;
+        gap: 25px;
+    }
+
+    #contacto .title img {
+        height: 30px;
+    }
+
+    #contacto .title h2 {
+        font-size: 2rem;
+    }
+}

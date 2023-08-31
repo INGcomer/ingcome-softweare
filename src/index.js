@@ -8,7 +8,8 @@ import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 
 // import LandingINGcomeSoftweare from "components/INGcomeSoftweare/LandingINGcomeSoftweare";
 
-import Landing from "./components/INGcomeSoftweare/LandingINGcomeSoftweare"
+// import LandingSoft from "./components/INGcomeSoftweare/LandingINGcomeSoftweare"
+import Landing from './components/INGcomeGeneral/Landing';
 import ErrorPage from './components/Error-page/Error-page';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,10 +21,10 @@ root.render(
         path="/"
         element={ <Landing/> }
       />
-      <Route
+      {/* <Route
         path="/software"
         element={ <Landing/> }
-      />
+      /> */}
       <Route
         path="*"
         element={ <ErrorPage/> }

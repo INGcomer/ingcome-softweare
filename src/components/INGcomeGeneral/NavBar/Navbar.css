@@ -1,0 +1,44 @@
+nav.ingcomeGeneralNav {
+    position: fixed;
+    top: 0;
+    z-index: 5;
+
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav.ingcomeGeneralNav a{
+    height: 100%;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav.ingcomeGeneralNav a.contacto{
+    color: var(--Rojo);
+    font-size: 2rem;
+    font-weight: bold;
+}
+nav.ingcomeGeneralNav a img{
+   height: 50%;
+}
+
+@media (max-width: 500px) {
+    nav.ingcomeGeneralNav{
+        height: 60px;
+    }
+    nav.ingcomeGeneralNav a{
+        display: none;
+    }
+    nav.ingcomeGeneralNav a.contacto, nav.ingcomeGeneralNav a.logo{
+        display: flex;
+    }
+}

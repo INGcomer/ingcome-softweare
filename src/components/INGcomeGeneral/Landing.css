@@ -1,0 +1,20 @@
+.INGcome {
+    --Rojo: #691624;
+    --GrisClaro: #EFEEEE;
+    --GrisMedio: #181D21;
+    --GrisOscuro: #181D21;
+
+    /* height: 500vh; */
+
+    background-color: var(--GrisOscuro);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+div:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+
+    background-color: #691624;
+}
