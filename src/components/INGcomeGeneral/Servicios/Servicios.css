@@ -96,9 +96,6 @@
     grid-column: 3/4;
     grid-row: 3/4;
 }
-#Servicios .grid_container .container#_4:hover{
-    --Sirculo: var(--Software);
-}
 #Servicios .grid_container .container#_1 ul{
     color: var(--Comercial);
 }
@@ -120,11 +117,12 @@
     border-radius: 200px;
 
     background-color: var(--Rojo);
-    /* background-color: var(--Sirculo); */
 
     display: flex;
     align-items: center;
     justify-content: center;
+
+    transition: all 0.5s;
 }
 #Servicios .circle img{
     height: 300px;
@@ -142,6 +140,19 @@
 
     backdrop-filter: blur(100px);
     -webkit-backdrop-filter: blur(100px);
+}
+
+#Servicios .grid_container .container#_1:hover ~ .grid_logo_container .circle{
+    background-color: var(--Comercial);
+}
+#Servicios .grid_container .container#_2:hover ~ .grid_logo_container .circle{
+    background-color: var(--Projectos);
+}
+#Servicios .grid_container .container#_3:hover ~ .grid_logo_container .circle{
+    background-color: var(--Eventos);
+}
+#Servicios .grid_container .container#_4:hover ~ .grid_logo_container .circle{
+    background-color: var(--Software);
 }
 
 

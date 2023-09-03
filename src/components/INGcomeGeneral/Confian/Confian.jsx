@@ -44,7 +44,7 @@ export default function Confian() {
                     <img src={ampros} alt="" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={cameda} alt="" />
+                    <img src={cameda} alt=""/>
                 </SwiperSlide>
                 <SwiperSlide>
                     <img src={aareii} alt="" />

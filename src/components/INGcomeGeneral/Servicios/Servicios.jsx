@@ -17,11 +17,7 @@ export default function Servicios() {
             </div>
             <p className='main_p'>Somos una empresa que abarca la faceta Estratégica, Comercial y de Desarrollo de Proyectos y Eventos, utilizando tecnología para incrementar los beneficios de estos y así potenciar su valor. </p>
             <div className="grid_container">
-                <div className='grid_logo_container'>
-                    <div className="circle">
-                        <img src={logoblanco} alt="" />
-                    </div>
-                </div>
+                
                 <div className='container' id='_1'>
                     <ul>
                         <li>
@@ -55,6 +51,11 @@ export default function Servicios() {
                     </ul>
 
                     <p>La tecnología impulsa el mundo actual y en INGcome, creamos soluciones de software personalizadas que mejoran la eficiencia y la innovación en las empresas y proyectos de los cuales formamos parte. Nuestro enfoque tecnológico impulsa el valor de sus proyectos y actividades comerciales, cerrando el ciclo sinérgico de nuestro Portfolio de Servicios.</p>
+                </div>
+                <div className='grid_logo_container'>
+                    <div className="circle">
+                        <img src={logoblanco} alt="" />
+                    </div>
                 </div>
                 <div className="gloss" />
             </div>
