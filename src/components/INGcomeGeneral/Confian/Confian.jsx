@@ -35,22 +35,32 @@ export default function Confian() {
                 autoplay={{
                     delay: 2500,
                     disableOnInteraction: false,
-                  }}
+                }}
             >
                 <SwiperSlide>
-                    <img src={cerebro} alt="" />
+                    <a href="https://cerebrocurioso.com.ar/">
+                        <img src={cerebro} alt="" />
+                    </a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={ampros} alt="" />
+                    <a href="https://www.ampros.org.ar/">
+                        <img src={ampros} alt="" />
+                    </a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={cameda} alt=""/>
+                    <a href="https://www.cannabismedicinal.com.ar/domain/cannabismedicinal.com.ar/index.php">
+                        <img src={cameda} alt="" />
+                    </a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={aareii} alt="" />
+                    <a href="https://aareii.org.ar/">
+                        <img src={aareii} alt="" />
+                    </a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src={uncuyo} alt="" />
+                    <a href="https://www.uncuyo.edu.ar/">
+                        <img src={uncuyo} alt="" />
+                    </a>
                 </SwiperSlide>
             </Swiper>
         </div>
