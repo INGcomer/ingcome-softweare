@@ -39,30 +39,30 @@ export default function Productos() {
                 }}
             >
                 <SwiperSlide>
-                    <a href="https://caeii-2022.vercel.app/">
+                    <a href="https://caeii-2022.vercel.app/" className='producto'>
                         <img src={CAEII} alt="" />
                     </a>
                 </SwiperSlide>
 
                 <SwiperSlide>
-                    <a href="https://congresosaludmental.ampros.org.ar/">
+                    <a href="https://congresosaludmental.ampros.org.ar/" className='producto'>
                         <img src={congresoAmpros} alt="" />
                     </a>
                     
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href="https://www.withsisa.com/">
+                    <a href="https://www.withsisa.com/" className='producto'> 
                         <img src={SISA} alt="" />
                     </a>
                     
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href="">
+                    <a href="" className='producto'>
                         <img src={leap} alt="" />
                     </a>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <a href="https://www.simpledoc.site/">
+                    <a href="https://www.simpledoc.site/" className='producto'>
                         <img src={simpledoc} alt="" />
                     </a>
                 </SwiperSlide>
