@@ -63,9 +63,9 @@ export default function AboutUs() {
                      fortalecemos nuestro éxito presente y futuro a través de la responsabilidad colectiva y la innovación colaborativa.
                     </p>
                 </div>
-                <div className='conteiner' id='_4'>
+                {/* <div className='conteiner' id='_4'>
                     <img src={ing} alt="" />
-                </div>
+                </div> */}
             </div>
             <div className='equipo'>
                 <h3>El equipo</h3>

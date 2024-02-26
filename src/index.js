@@ -27,7 +27,7 @@ root.render(
       /> */}
       <Route
         path="*"
-        element={ <ErrorPage/> }
+        element={ <Landing/> }
       />
     </Routes>
     </BrowserRouter> 
