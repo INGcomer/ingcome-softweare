@@ -11,6 +11,7 @@ import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 // import LandingSoft from "./components/INGcomeSoftweare/LandingINGcomeSoftweare"
 import Landing from './components/INGcomeGeneral/Landing';
 import ErrorPage from './components/Error-page/Error-page';
+import MendoCann from './components/MendoCann/MendoCann';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -20,6 +21,10 @@ root.render(
       <Route
         path="/"
         element={ <Landing/> }
+      />
+      <Route
+        path="/MendoCann"
+        element={ <MendoCann/> }
       />
       {/* <Route
         path="/software"
