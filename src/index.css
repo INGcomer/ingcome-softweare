@@ -1,10 +1,18 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-html{
+html {
   scroll-behavior: smooth;
+  --Rojo: #691624;
+  --GrisClaro: #EFEEEE;
+  --GrisMedio: #181D21;
+  --GrisOscuro: #181D21;
+
+  /* height: 500vh; */
+
+  background-color: var(--GrisOscuro);
 }
 
 body {

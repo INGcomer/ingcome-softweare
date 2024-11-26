@@ -1,10 +1,9 @@
 // components
-import Navbar from "./NavBar/Navbar";
+import BaseLayout from "../Layout/Layout";
 import Header from "./Header/Header"
 import AboutUs from "./AboutUs/AboutUs";
 import Servicios from "./Servicios/Servicios";
 import Contacto from "./Contacto/Contacto";
-import Footer from "./Footer/Footer"
 
 // CSS
 import './Landing.css';
@@ -13,12 +12,12 @@ import './Landing.css';
 export default function Landing() {
     return (
         <div className="INGcome">
-            <Navbar />
+            <BaseLayout>
             <Header />
             <AboutUs />
             <Servicios />
             <Contacto/>
-            <Footer/>
+            </BaseLayout>
         </div>
     )
 }

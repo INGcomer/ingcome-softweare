@@ -12,6 +12,7 @@ import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 import Landing from './components/INGcomeGeneral/Landing';
 import ErrorPage from './components/Error-page/Error-page';
 import MendoCann from './components/MendoCann/MendoCann';
+import Recursos from './components/Recursos/Recursos';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -30,6 +31,10 @@ root.render(
         path="/software"
         element={ <Landing/> }
       /> */}
+      <Route
+        path="/recursos"
+        element={ <Recursos/> }
+      />
       <Route
         path="*"
         element={ <Landing/> }
