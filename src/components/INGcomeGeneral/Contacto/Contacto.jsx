@@ -27,7 +27,7 @@ export default function Contacto() {
 
         axios({
             method: 'post',
-            url: 'https://api.sheetmonkey.io/form/7qNYbobVacMq9LqjLTY8mh',
+            url: 'https://api.sheetmonkey.io/form/uhSZdr9zCYZ5i7oKWXKtAC',
             data: data
         }).then(Response => {
             MySwal.fire({         // si ocurrio algun error muestro este mensaje
