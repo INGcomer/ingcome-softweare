@@ -50,12 +50,12 @@ export default function Productos() {
                     </a>
                     
                 </SwiperSlide>
-                <SwiperSlide>
+                {/* <SwiperSlide>
                     <a href="https://www.withsisa.com/" className='producto'> 
                         <img src={SISA} alt="" />
                     </a>
                     
-                </SwiperSlide>
+                </SwiperSlide> */}
                 <SwiperSlide>
                     <a href="" className='producto'>
                         <img src={leap} alt="" />
